@@ -61,5 +61,20 @@ public class StudentManager {
                 .findFirst()
                 .orElse(null);
     }
+
+    // Test-friendly methods
+    public boolean register(String name, String studentId, String username, String password) {
+        if (isUsernameTaken(username)) {
+            return false;
+        }
+        Student newStudent = new Student(name, studentId, username, password);
+        students.add(newStudent);
+        return true;
+    }
+
+    public boolean login(String username, String password) {
+        Student student = authenticateStudent(username, password);
+        return student != null;
+    }
 }
 

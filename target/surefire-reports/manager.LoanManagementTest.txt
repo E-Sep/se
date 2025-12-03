@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: manager.LoanManagementTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s - in manager.LoanManagementTest
