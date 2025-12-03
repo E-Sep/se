@@ -1,4 +1,4 @@
-package ap.projects.finalproject;
+package model;
 
 public class Employee {
     private String username;

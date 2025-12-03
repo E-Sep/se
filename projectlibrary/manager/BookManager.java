@@ -1,8 +1,9 @@
-package ap.projects.finalproject;
+package manager;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+import model.Book;
 
 public class BookManager {
     private List<Book> books;

@@ -1,7 +1,8 @@
-package ap.projects.finalproject;
+package manager;
 
 import java.util.ArrayList;
 import java.util.List;
+import model.Student;
 
 public class StudentManager {
     private List<Student> students;
@@ -61,3 +62,4 @@ public class StudentManager {
                 .orElse(null);
     }
 }
+

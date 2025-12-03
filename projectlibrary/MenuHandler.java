@@ -1,8 +1,6 @@
-package ap.projects.finalproject;
-
-
 // MenuHandler.java
 import java.util.Scanner;
+import model.Student;
 
 public class MenuHandler {
     private Scanner scanner;

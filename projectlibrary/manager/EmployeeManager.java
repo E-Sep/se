@@ -1,7 +1,8 @@
-package ap.projects.finalproject;
+package manager;
 
 import java.util.ArrayList;
 import java.util.List;
+import model.Employee;
 
 public class EmployeeManager {
     private List<Employee> employees;

@@ -1,7 +1,7 @@
-package ap.projects.finalproject;
+package model;
 
 import java.time.LocalDate;
-import java.time.temporal.ChronUnit;
+import java.time.temporal.ChronoUnit;
 
 public class Loan {
     private String studentUsername;
@@ -101,7 +101,7 @@ public class Loan {
 
     public long getDaysBorrowed() {
         if (actualStartDate != null && actualEndDate != null) {
-            return ChronUnit.DAYS.between(actualStartDate, actualEndDate);
+            return ChronoUnit.DAYS.between(actualStartDate, actualEndDate);
         }
         return 0;
     }

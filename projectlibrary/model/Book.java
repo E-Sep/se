@@ -1,4 +1,4 @@
-package ap.projects.finalproject;
+package model;
 
 public class Book {
     private String title;
@@ -71,3 +71,4 @@ public class Book {
                 " | Status: " + (isAvailable ? "Available" : "On Loan");
     }
 }
+

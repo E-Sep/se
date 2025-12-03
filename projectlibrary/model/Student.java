@@ -1,4 +1,4 @@
-package ap.projects.finalproject;
+package model;
 
 public class Student {
     private String name;
@@ -47,3 +47,4 @@ public class Student {
                 " | Status: " + (isActive ? "Active" : "Inactive");
     }
 }
+

@@ -1,6 +1,11 @@
-package ap.projects.finalproject;
-
 // LibrarySystem.java
+import manager.BookManager;
+import manager.EmployeeManager;
+import manager.LoanManager;
+import manager.StudentManager;
+import model.Book;
+import model.Student;
+
 public class LibrarySystem {
     private StudentManager studentManager;
     private BookManager bookManager;
@@ -31,6 +36,26 @@ public class LibrarySystem {
 
     public Student authenticateStudent(String username, String password) {
         return studentManager.authenticateStudent(username, password);
+    }
+
+    // ==== Methods used by MenuHandler ====
+    public void editStudentInformation(Student student) {
+        System.out.println("Edit student information is not implemented yet.");
+    }
+
+    public void borrowBook(Student student) {
+        System.out.println("Borrow book is not implemented yet.");
+    }
+
+    public void returnBook(Student student) {
+        System.out.println("Return book is not implemented yet.");
+    }
+
+    public void displayAvailableBooks() {
+        System.out.println("--- Available Books ---");
+        for (Book book : bookManager.getAllBooks()) {
+            System.out.println(book);
+        }
     }
 
     // Book Manager getters
