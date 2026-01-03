@@ -1,4 +1,6 @@
 // MenuHandler.java
+package system;
+
 import java.util.Scanner;
 import model.Student;
 

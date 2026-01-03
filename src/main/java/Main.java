@@ -7,6 +7,8 @@ import model.Book;
 import model.Employee;
 import model.Loan;
 import model.Student;
+import system.LibrarySystem;
+import system.MenuHandler;
 
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
